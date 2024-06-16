@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+    font-family: "Teko", sans-serif;
+}
+.container{
+    max-width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #F9F5F6, #C6DCBA, #BBC3A4, #B3A398);
+}
+
+.box{
+    width: 540px;
+}
+
+h1 img{
+width: 40px;
+height: 40px;
+}
