@@ -72,7 +72,8 @@ deleteBtn.addEventListener("click", () => {
         timer: 1600,
       });
       localStorage.clear();
-      taskList.innerHTML = "";
+      tasks=[]
+      taskList.innerHTML=""
     } else if (result.isDenied) {
       Swal.fire({
         title: "All your task are safe!",
